@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(84, 82, 82, 0.443);
+    text-align: center;
+}
+#contenitore{
+
+    position: absolute;
+    height: 2em;
+    width: 40em;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contenitore input{
+    width: 30em;
+    height: 2em;
+}
+#contenitore button{
+    height: 2.3em;
+    margin: 0px 5px 0px 5px;
+}
+
+#elencoTask{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50em; /* Imposta la larghezza desiderata */
+    height: 7em; /* Imposta l'altezza desiderata */
+    background-color: gray; /* Imposta lo sfondo rosso */
+    padding: 10px; /* Aggiunge spazio interno al contenitore (opzionale) */
+    text-align: center;
+    overflow: auto; /* Aggiunge una barra di scorrimento se i paragrafi eccedono le dimensioni del contenitore */
+}
+
+#elencoTask p{
+    display: block;
+    margin: 5px;
+}
+i{
+    padding: 5px;
+    font-size: 0.8em;
+}
